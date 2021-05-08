@@ -41,5 +41,5 @@
         </div>
     </div>
     <br><br><br>
-    <h5 class="text-center tittles-pages-logo text-footer">STORE &copy; 2021</h5>
+    <h5 class="text-center tittles-pages-logo text-footer">BEER HOME</h5>
 </footer>

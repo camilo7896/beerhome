@@ -9,7 +9,7 @@
     <section id="container-pedido">
         <div class="container">
             <div class="page-header">
-              <h1>PEDIDOS <small class="tittles-pages-logo">STORE</small></h1>
+              <h1>PEDIDOS <small class="tittles-pages-logo">BEER HOME</small></h1>
             </div>
             <br><br><br>
             <div class="row">
