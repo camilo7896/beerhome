@@ -6,6 +6,7 @@
 </head>
 
 <body id="container-page-index">
+
     <?php include './inc/navbar.php'; ?>
  
     <section id="slider-store" class="carousel slide" data-ride="carousel" style="padding: 0;">
@@ -117,9 +118,8 @@
     </section>
 
     <?php include './inc/footer.php'; ?>
-    <script>
-            Push.create("Bievenido a BEER HOME");
-    </script>
-    <script src="js/push.min.js"></script>
+   
+    <! - El SDK de Firebase JS principal siempre es obligatorio y debe aparecer primero -> <script src = "/__/firebase/8.6.1/firebase-app.js" > </script> <! - TODO : Agregue SDK para los productos de Firebase que desea usar      https://firebase.google.com/docs/web/setup#available-libraries -> <! - Initialize Firebase -> <script src = "/ __ / firebase / init.js " > </script>
+
 </body>
 </html>
