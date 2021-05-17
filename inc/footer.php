@@ -31,6 +31,7 @@
                 </p>
             </div>
             <div class="col-sm-4">
+                
                 <h4 class="text-footer" >Direccion</h4>
                 <p style="color: #FFF">El Salvador</p>
                 <p style="color: #FFF">adipisicing elit</p>

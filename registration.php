@@ -32,7 +32,7 @@
                               </div>
                               <div class="col-xs-12">
                                 <div class="form-group label-floating">
-                                  <label class="control-label"><i class="fa fa-address-card-o" aria-hidden="true"></i>&nbsp; Ingrese su número de DNI</label>
+                                  <label class="control-label"><i class="fa fa-address-card-o" aria-hidden="true"></i>&nbsp; Ingrese su número de Cedula</label>
                                   <input class="form-control" type="text" required name="clien-nit" pattern="[0-9]{1,15}" title="Ingrese su número de DNI. Solamente números" maxlength="15" >
                                 </div>
                               </div>

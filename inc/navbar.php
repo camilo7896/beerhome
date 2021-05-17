@@ -7,6 +7,7 @@
             <div class="col-xs-4">
                 <p class="text-navbar tittles-pages-logo" id="arriba">BEER HOME</p>
             </div>
+           
             <div class="col-xs-8">
               <div class="contenedor-tabla pull-right">
                 <div class="contenedor-tr">
@@ -125,15 +126,17 @@
     
     <div id="mobile-menu-list" class="hidden-sm hidden-md hidden-lg">
         <br>
-        <h3 class="text-center tittles-pages-logo">STORE</h3>
+        <h3 class="text-center tittles-pages-logo">BEER HOME</h3>
         <button class="btn btn-default button-mobile-menu" id="button-close-mobile-menu">
         <i class="fa fa-times"></i>
         </button>
         <br><br>
         <ul class="list-unstyled text-center">
+             <li><a href="https://api.whatsapp.com/send?phone=+573197108904">whatsapp</a></li>
             <li><a href="index.php">Inicio</a></li>
             <li><a href="product.php">Productos</a></li>
             <li><a href="carrito.php">Carrito</a></li>
+            <img src="../assets/img/whatsapp.png" alt="" id="whatsapp">
             <?php 
                 if(!$_SESSION['nombreAdmin']==""){
                     echo '<li><a href="configAdmin.php">Administración</a></li>';
