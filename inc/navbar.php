@@ -132,7 +132,7 @@
         </button>
         <br><br>
         <ul class="list-unstyled text-center">
-             <li><a href="https://api.whatsapp.com/send?phone=+573197108904">whatsapp</a></li>
+             <li><a href="https://api.whatsapp.com/send?phone=+573197108904">Comprar por whatsapp</a></li>
             <li><a href="index.php">Inicio</a></li>
             <li><a href="product.php">Productos</a></li>
             <li><a href="carrito.php">Carrito</a></li>

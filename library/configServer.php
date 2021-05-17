@@ -1,5 +1,5 @@
 <?php
-define("USER", "u320803725_artesanalonlinu320803725_artesanalonlin");
+define("USER", "root");
 define("SERVER", "localhost");
-define("BD", "u320803725_store");
-define("PASS", "Bitcoin2020");
+define("BD", "store");
+define("PASS", "");
