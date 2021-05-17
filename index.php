@@ -117,5 +117,9 @@
     </section>
 
     <?php include './inc/footer.php'; ?>
+    <script>
+            Push.create("Bievenido a BEER HOME");
+    </script>
+    <script src="js/push.min.js"></script>
 </body>
 </html>
