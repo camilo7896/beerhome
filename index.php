@@ -56,7 +56,7 @@
     <section id="new-prod-index">
          <div class="container">
             <div class="page-header">
-                <h1>Últimos <small>productos agregados</small></h1>
+                <h1 style="color: white;">Últimos <small>productos agregados</small></h1>
             </div>
             <div class="row">
               	<?php
@@ -92,7 +92,7 @@
                 <?php
                      }
                   }else{
-                      echo '<h2>No hay productos registrados en la tienda</h2>';
+                      echo '<h2 style="color:white">No hay productos registrados en la tienda</h2>';
                   }
               	?>
             </div>

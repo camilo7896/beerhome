@@ -11,11 +11,9 @@
     <section id="form-registration">
         <div class="container">
             <div class="page-header">
-              <h1>REGISTRO <small class="tittles-pages-logo">BEER HOME</small></h1>
+              <h1 style="color:white">REGISTRO <small class="tittles-pages-logo">BEER HOME</small></h1>
             </div>
-            <p class="lead text-center">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident assumenda asperiores architecto nostrum blanditiis excepturi voluptatibus, velit ad enim. Aperiam voluptatum est, fugit quisquam libero distinctio nobis porro numquam minus.
-            </p>
+          
             <div class="row">
                 <div class="col-sm-5 text-center">
                     <figure>
@@ -24,7 +22,7 @@
                 </div>
                 <div class="col-sm-7">
                     <div id="container-form">
-                       <p class="text-center lead">Registro de Clientes</p>
+                       <p class="text-center lead" style="color: white;">Registro de Clientes</p>
                        <br><br>
                        <form class="FormCatElec" action="process/regclien.php" role="form" method="POST" data-form="save">
                           <div class="container-fluid">
