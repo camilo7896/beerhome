@@ -2,13 +2,14 @@
 <html lang="es">
 <head>
     <title>BEER HOME</title>
+    <link rel="icon" href="assets/img/logo-fondo-negro.png" type="image/png">
     <?php include './inc/link.php'; ?>
 </head>
 
 <body id="container-page-index">
 
     <?php include './inc/navbar.php'; ?>
- 
+
     <section id="slider-store" class="carousel slide" data-ride="carousel" style="padding: 0;">
 
         <!-- Indicators -->
@@ -19,26 +20,26 @@
         </ol>
 
         <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
+        <!-- <div class="carousel-inner" role="listbox">
             <div class="item active">
                 <img src="./assets/img/dibujo-1.png" alt="slider1">
                 <div class="carousel-caption">
-                    Text Slider 1
+
                 </div>
-            </div>
-            <div class="item">
+            </div> -->
+            <!-- <div class="item">
                 <img src="./assets/img/dibujo-3.png" alt="slider2">
                 <div class="carousel-caption">
-                    Text Slider 2
+
                 </div>
-            </div>
-            <div class="item">
+            </div> -->
+            <!-- <div class="item">
                 <img src="./assets/img/dibujo-2.png" alt="slider3">
                 <div class="carousel-caption">
                     Text Slider 3
                 </div>
-            </div>
-        </div>
+            </div> -->
+        <!-- </div> -->
 
         <!-- Controls -->
         <a class="left carousel-control" href="#slider-store" role="button" data-slide="prev">
@@ -50,9 +51,9 @@
             <span class="sr-only">Next</span>
         </a>
     </section>
-    
 
-    <section id="new-prod-index">    
+
+    <section id="new-prod-index">
          <div class="container">
             <div class="page-header">
                 <h1>Últimos <small>productos agregados</small></h1>
@@ -76,7 +77,7 @@
                              <p>
                              <?php
                              $pref=number_format($fila['Precio']-($fila['Precio']*($fila['Descuento']/100)), 2, '.', '');
-                             echo $fila['Descuento']."% descuento: $".$pref; 
+                             echo $fila['Descuento']."% descuento: $".$pref;
                              ?>
                              </p>
                              <?php else: ?>
@@ -87,13 +88,13 @@
                         </p>
                        </div>
                      </div>
-                </div>     
+                </div>
                 <?php
-                     }   
+                     }
                   }else{
                       echo '<h2>No hay productos registrados en la tienda</h2>';
-                  }  
-              	?>  
+                  }
+              	?>
             </div>
          </div>
     </section>
@@ -105,7 +106,7 @@
                         <p><i class="fa fa-users fa-4x"></i></p>
                         <h3>Registrate</h3>
                         <p>Registrate como cliente de <span class="tittles-pages-logo">BEER HOME</span> en un sencillo formulario para poder completar tus pedidos</p>
-                        <p><a href="registration.php" class="btn btn-info btn-raised btn-block">Registrarse</a></p>   
+                        <p><a href="registration.php" class="btn btn-info btn-raised btn-block">Registrarse</a></p>
                    </article>
                 </div>
 
@@ -114,11 +115,11 @@
                 </div>
             </div>
         </div>
-        
+
     </section>
 
     <?php include './inc/footer.php'; ?>
-   
+
     <! - El SDK de Firebase JS principal siempre es obligatorio y debe aparecer primero -> <script src = "/__/firebase/8.6.1/firebase-app.js" > </script> <! - TODO : Agregue SDK para los productos de Firebase que desea usar      https://firebase.google.com/docs/web/setup#available-libraries -> <! - Initialize Firebase -> <script src = "/ __ / firebase / init.js " > </script>
 
 </body>

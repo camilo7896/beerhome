@@ -163,13 +163,13 @@
     /* ========================================= product styles ======================================*/
     
     #container-page-product {
-        background-image: url(../assets/img/font-registration.JPG);
+        background-image: url(../assets/img/dibujo-3.png.png);
     }
     
     #store,
     #infoproduct,
     #container-pedido {
-        background-color: rgba(255, 255, 255, .97);
+        background-color: rgba(0, 0, 0, 0.918);
         min-height: 900px;
     }
     
@@ -181,7 +181,7 @@
     /* ========================================= registration styles ======================================*/
     
     #container-page-registration {
-        background-image: url(../assets/img/font-registration.jpg);
+        background-image: url(../assets/img/dibujo-3.png.png);
     }
     
     #form-registration {
@@ -198,7 +198,7 @@
     /* ========================================= configAdmin styles ======================================*/
     
     #container-page-configAdmin {
-        background-image: url(../assets/img/font-registration.JPG);
+        background-image: url(../assets/img/../assets/img/dibujo-3.png.png);
     }
     
     #prove-product-cat-config {

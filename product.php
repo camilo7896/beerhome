@@ -5,6 +5,8 @@ include './library/consulSQL.php';
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<link rel="icon" href="assets/img/logo-fondo-negro.png" type="image/png">
+
     <title>Productos</title>
     <?php include './inc/link.php'; ?>
 </head>

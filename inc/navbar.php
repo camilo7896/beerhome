@@ -7,7 +7,6 @@
             <div class="col-xs-4">
                 <p class="text-navbar tittles-pages-logo" id="arriba">BEER HOME</p>
             </div>
-           
             <div class="col-xs-8">
               <div class="contenedor-tabla pull-right">
                 <div class="contenedor-tr">

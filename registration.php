@@ -2,6 +2,8 @@
 <html lang="es">
 <head>
     <title>Registro</title>
+    <link rel="icon" href="assets/img/logo-fondo-negro.png" type="image/png">
+
     <?php include './inc/link.php'; ?>
 </head>
 <body id="container-page-registration">
